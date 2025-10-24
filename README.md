@@ -11,7 +11,7 @@ Step 1: The Skeleton (Pure HTML)
 5) Than i opened bio.html file in visual studio code and started coding.
 6) I started with <html> tag  and ended with </html> tag.
 7) I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title> and than i added </head> tag to close    head tag.
-8)  I than added body tag <body> inside it i had added main heading as <h1>Personal Biography</h1> and than i added image tag as
+8)  I than added body tag <body> inside it i had added main heading as Personal Biography inside<h1></h1> tag and than i added image tag as
    <img src="../Step1/images.jpeg" style="padding: 20px;" alt="Dixith's profile picture" width="300" height="300"> tag.
 9)  And than i added another heading after <img> tag  <h2 style="color: red; font-size: 30px;">About Me:</h2>.
 10) And than i added Paragraph tag <p> inside i added paragraph text and than i closed paragraph tag </p>.
