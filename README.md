@@ -16,7 +16,7 @@ Step 1: The Skeleton (Pure HTML)
 10) And than i added another heading as About Me: after <img> tag inside header tag.
 11) And than i added Paragraph tag inside it i added long text and than i closed paragraph tag.
 12) And than again i added heading as My Hobbie inside header tag.
-13) And than i created unordered list of my hobbies inside <ul><li></li></ul> and than i closed body tag as </body> and also html tag as </html>.
+13) And than i created unordered list of my hobbies inside unordered list tag and than i closed body tag as </body> and also html tag as </html>.
 
 Step 2: The First Coat of Paint (Basic CSS)
 
