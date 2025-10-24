@@ -1,1 +1,31 @@
 # Full-Stack-Developer-Training-Plan
+
+Phase 1: The Absolute Basics - Building from Scratch
+Objective: To build a strong understanding of the core technologies that make up the web.
+
+Step 1: The Skeleton (Pure HTML)
+1) First i created main folder by name Full-Stack-Developer-Training-Plan.
+2) Than i created Step1 folder inside Full-Stack-Developer-Training-Plan folder.  
+3) Than i added bio.html file inside Step1 folder.
+4) Than i pasted images.jpeg file inside Step1 folder.
+5) Than i opened bio.html file in visual studio code and started coding.
+6) I started with <html> tag  and ended with </html> tag.
+7) I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title> and than i added </head> tag to close    head tag.
+8)  I than added body tag <body> inside it i had added main heading as <h1>Personal Biography</h1> and than i added image tag as
+   <img src="../Step1/images.jpeg" style="padding: 20px;" alt="Dixith's profile picture" width="300" height="300"> tag.
+9)  And than i added another heading after <img> tag  <h2 style="color: red; font-size: 30px;">About Me:</h2>.
+10) And than i added Paragraph tag <p> inside i added paragraph text and than i closed paragraph tag </p>.
+11)  And than again i added heading as  <h2>My Hobbies:</h2>.
+12)  And than i created unordered list of my hobbies inside <ul><li></li></ul> and than i closed body tag as </body> and also html tag as </html>.
+
+Step 2: The First Coat of Paint (Basic CSS)
+
+
+Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
+
+
+Step 4: Adding Logic (JS Events & Conditionals)
+
+
+Step 5: The Pro Stylist (Tailwind CSS)
+
