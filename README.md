@@ -15,7 +15,7 @@ Step 1: The Skeleton (Pure HTML)
    <img src="../Step1/images.jpeg" style="padding: 20px;" alt="Dixith's profile picture" width="300" height="300"> tag.
 9)  And than i added another heading after <img> tag  <h2 style="color: red; font-size: 30px;">About Me:</h2>.
 10) And than i added Paragraph tag <p> inside i added paragraph text and than i closed paragraph tag </p>.
-11)  And than again i added heading as  <h2>My Hobbies:</h2>.
+11)  And than again i added heading as My Hobbie inside <h2></h2> tag.
 12)  And than i created unordered list of my hobbies inside <ul><li></li></ul> and than i closed body tag as </body> and also html tag as </html>.
 
 Step 2: The First Coat of Paint (Basic CSS)
