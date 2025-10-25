@@ -44,11 +44,12 @@ Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
 5)  I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title>.
 6)  And than i closed head tag.
 7)  And than i started with body tag with a heading as Biography inside h1 with id as bio and than closed h1 tag.
-8)  And than i added button next to heading with onclick as chngtitl();.
+8)  And than i added button with name change title next to heading with onclick as chngtitl();.
 9)  And than i added script tag inside it i added a function by name chngtitl().
 10) Inside chngtitl function  i added  var title = document.getElementById("bio"); 
      title.textContent = "Hello, [Dixith Acharya]!";.
-11)  
+11)  And than i closed script tag and than i closed body tag and html tag.
+12)  Now at first it will display heading as Biography and in next line there is button named change title.
 
 
 Step 4: Adding Logic (JS Events & Conditionals)
