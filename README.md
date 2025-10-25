@@ -41,7 +41,14 @@ Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
 2)  Than i added greeting.html file inside Step3 folder.
 3)  Than i opened greeting.html file in visual studio code and started coding.
 4)  I started with <html> tag  and ended with </html> tag.
-5)  
+5)  I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title>.
+6)  And than i closed head tag.
+7)  And than i started with body tag with a heading as Biography inside h1 with id as bio and than closed h1 tag.
+8)  And than i added button next to heading with onclick as chngtitl();.
+9)  And than i added script tag inside it i added a function by name chngtitl().
+10)  Inside  chngtitl function  i added  var title = document.getElementById("bio"); 
+     title.textContent = "Hello, [Dixith Acharya]!";.
+11)  
 
 
 Step 4: Adding Logic (JS Events & Conditionals)
