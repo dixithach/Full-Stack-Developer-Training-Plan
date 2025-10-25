@@ -39,6 +39,9 @@ Step 2: The First Coat of Paint (Basic CSS)
 Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
 1)  First i created  Step3 folder inside Full-Stack-Developer-Training-Plan folder.
 2)  Than i added greeting.html file inside Step3 folder.
+3)  Than i opened greeting.html file in visual studio code and started coding.
+4)  I started with <html> tag  and ended with </html> tag.
+5)  
 
 
 Step 4: Adding Logic (JS Events & Conditionals)
