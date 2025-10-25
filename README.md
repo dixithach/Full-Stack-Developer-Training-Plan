@@ -12,7 +12,7 @@ Step 1: The Skeleton (Pure HTML)
 6) I started with <html> tag  and ended with </html> tag.
 7) I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title> and than i added </head> tag to close head tag.
 8)  I than added body tag <body> inside it i had added main heading as Personal Biography inside header tag.
-9)  And than i added image tag as src="../Step1/images.jpeg" style="padding: 20px;" alt="Dixith's profile picture" width="300" height="300" inside image tag.
+9)  And than i added image tag as src="../Step1/images.jpeg" style="padding: 20px;" alt="Dixith's profile picture" width="300" height="300" inside image tag to display image.
 10) And than i added another heading as About Me: after <img> tag inside header tag.
 11) And than i added Paragraph tag inside it i added long text and than i closed paragraph tag.
 12) And than again i added heading as My Hobbie inside header tag.
@@ -25,10 +25,15 @@ Step 2: The First Coat of Paint (Basic CSS)
 4) Than i opened bio.html file in visual studio code and started coding.
 5) I started with <html> tag  and ended with </html> tag.
 6) I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title>.
-7) And than i added  internal style attributes for hr,body,img,h2,p,ul inside style tag and than i closed it with close style tag and than close body tag. 
-8)  </head> tag to close head tag.
-9) I than added body tag <body> inside it i had added main heading as Personal Biography inside header tag.
-10) 
+7) And than i added  internal style attributes for hr,body,img,h2,p,ul inside style tag and than i closed it with close style tag and than close body tag.
+8) I had added background color attribute for body tag and added font color and size to h2 heading and also for paragraph tag.
+9) And added some spacing around the image in img attribute and than closed it with style tag.
+10) And tha Close head tag to close head tag.
+11) I than added body tag <body> inside it i had added main heading as Personal Biography inside header tag.
+12) And next to it i added img tag to display image here.
+13) And than i added another heading h2 About Me and than i added paragraph next to heading and than closed paragraph tag.
+14) And again i added h2 heading tag as My Hobbies and than i added unordered list.
+15) And than i closed body tag and than html tag.
 
 
 Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
