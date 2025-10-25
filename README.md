@@ -46,7 +46,7 @@ Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
 7)  And than i started with body tag with a heading as Biography inside h1 with id as bio and than closed h1 tag.
 8)  And than i added button next to heading with onclick as chngtitl();.
 9)  And than i added script tag inside it i added a function by name chngtitl().
-10)  Inside  chngtitl function  i added  var title = document.getElementById("bio"); 
+10) Inside chngtitl function  i added  var title = document.getElementById("bio"); 
      title.textContent = "Hello, [Dixith Acharya]!";.
 11)  
 
