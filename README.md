@@ -72,7 +72,10 @@ Step 4: Adding Logic (JS Events & Conditionals)
     var title = document.getElementById("bio"); 
     title.textContent = "The Dog says Bow!"; 
    }
-12) 
+12)  And than i closed script tag and than i closed body tag and html tag.
+13)  Now at first there are 2 buttons named as cow and dog.
+14)  If i click cow it will display heading as  The cow says Moo!.
+15)  If i click dog it will display heading as  The Dog says Bow!.
 
 Step 5: The Pro Stylist (Tailwind CSS)
 
