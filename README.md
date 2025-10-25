@@ -53,7 +53,26 @@ Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
 13)  While clicking change title button the heading changes from Biography to Hello, [Dixith Acharya]!.
 
 Step 4: Adding Logic (JS Events & Conditionals)
-
+1)  First i created  Step4 folder inside Full-Stack-Developer-Training-Plan folder.
+2)  Than i added animal-sounds.html file inside Step4 folder.
+3)  Than i opened animal-sounds.html file in visual studio code and started coding.
+4)  I started with <html> tag  and ended with </html> tag.
+5)  I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title>.
+6)  And than i closed head tag.
+7)  And than i started with body tag with a heading  inside h1 with id as bio and than closed h1 tag.
+8)  And than i added 2  buttons with name as cow with value as C and dog with value as D  next line to heading with onclick as chngtitl();.
+9)  And than i added script tag inside it i added a function by name chngtitl(button).
+10) Inside chngtitl function  i added  if and else if statement first i took var animal = button.value; and than var animal checks value for the buttons.
+11) if(animal=='C')
+   {   
+   var title = document.getElementById("bio"); 
+   title.textContent = "The cow says Moo!"; 
+   } else if (animal=='D')
+   {
+    var title = document.getElementById("bio"); 
+    title.textContent = "The Dog says Bow!"; 
+   }
+12) 
 
 Step 5: The Pro Stylist (Tailwind CSS)
 
