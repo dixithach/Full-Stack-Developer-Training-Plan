@@ -25,7 +25,7 @@ Step 2: The First Coat of Paint (Basic CSS)
 4) Than i opened bio.html file in visual studio code and started coding.
 5) I started with <html> tag  and ended with </html> tag.
 6) I than added <head> tag and inside it i added <title> tag with name as My Profile and ended it with </title>.
-7) And than i added  internal <style>  attributes for <hr>,<body>,<img>,<h2>,<p>,<ul> inside style tag and than i closed it with </style> tag and than </body> tag. 
+7) And than i added  internal style attributes for hr,body,img,h2,p,ul inside style tag and than i closed it with close style tag and than close body tag. 
 8)  </head> tag to close head tag.
 9) I than added body tag <body> inside it i had added main heading as Personal Biography inside header tag.
 10) 
