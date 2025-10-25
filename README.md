@@ -50,7 +50,7 @@ Step 3: Making it Do Something (JavaScript Fundamentals & DOM)
      title.textContent = "Hello, [Dixith Acharya]!";.
 11)  And than i closed script tag and than i closed body tag and html tag.
 12)  Now at first it will display heading as Biography and in next line there is button named change title.
-
+13)  While clicking change title button the heading changes from Biography to Hello, [Dixith Acharya]!.
 
 Step 4: Adding Logic (JS Events & Conditionals)
 
