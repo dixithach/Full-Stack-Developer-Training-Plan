@@ -84,6 +84,15 @@ Step 5: The Pro Stylist (Tailwind CSS)
 4)  I started with <html> tag  and ended with </html> tag.
 5)  I than added <head> tag and inside it i added <title> tag with name as Course Card and ended it with </title>.
 6)  Next i added   <!-- ✅ Tailwind CSS CDN --> <script src="https://cdn.tailwindcss.com"></script> after title tag.
+7)  and than closed head tag.
+8)  than i started with body tag inside body tag i added class of tailwind CSS class="max-w-md w-full bg-white rounded-xl shadow-lg overflow-hidden".
+9)  Next i added main div with class as class="max-w-md w-full bg-white rounded-xl shadow-lg overflow-hidden".
+10) Next i added another div  <div class="p-6">.
+11) And than i added heading h2 with class as  class="text-2xl font-bold text-gray-800 mb-2" and named it as Introduction to Computer Science as it makes bold heading and closed heading tag. 
+12) And next i added Paragraph tag with class as class="text-gray-600 mb-4" with paragraph text inside paragraph tag and ended the paragraph tag.
+13) Next i opened another div tag with class as class="border-t pt-4 text-sm text-gray-500" and inside it i added  Instructor: with span tag with  class="font-medium text-gray-700" Dixith Acharya      and closed span tag.
+14) And than i closed 3 div tags and than i closed body tag with html tag.
+15) 
 
 
 
