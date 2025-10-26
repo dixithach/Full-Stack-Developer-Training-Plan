@@ -78,4 +78,17 @@ Step 4: Adding Logic (JS Events & Conditionals)
 15)  If i click dog it will display heading as  The Dog says Bow!.
 
 Step 5: The Pro Stylist (Tailwind CSS)
+1)  First i created  Step5 folder inside Full-Stack-Developer-Training-Plan folder.
+2)  Than i added course-card.html file inside Step5 folder.
+3)  Than i opened course-card.html file in visual studio code and started coding.
+4)  I started with <html> tag  and ended with </html> tag.
+5)  I than added <head> tag and inside it i added <title> tag with name as Course Card and ended it with </title>.
+6)  Next i added   <!-- ✅ Tailwind CSS CDN --> <script src="https://cdn.tailwindcss.com"></script> after title tag.
+
+
+
+
+
+
+
 
