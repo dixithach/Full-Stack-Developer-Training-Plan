@@ -92,7 +92,7 @@ Step 5: The Pro Stylist (Tailwind CSS)
 12) And next i added Paragraph tag with class as class="text-gray-600 mb-4" with paragraph text inside paragraph tag and ended the paragraph tag.
 13) Next i opened another div tag with class as class="border-t pt-4 text-sm text-gray-500" and inside it i added  Instructor: with span tag with  class="font-medium text-gray-700" Dixith Acharya      and closed span tag.
 14) And than i closed 3 div tags and than i closed body tag with html tag.
-15) 
+15) Next i went to browser to view my university course card
 
 
 
