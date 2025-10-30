@@ -94,6 +94,12 @@ Step 5: The Pro Stylist (Tailwind CSS)
 14) And than i closed 3 div tags and than i closed body tag with html tag.
 15) Next i went to browser to view my university course card
 
+Check out the demo video on YouTube:  
+[Watch here](https://youtu.be/KUCbd55fLPg)
+
+
+
+
 
 
 
