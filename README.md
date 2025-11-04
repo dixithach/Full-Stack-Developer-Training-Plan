@@ -108,7 +108,8 @@ Task
 2) Next i made Step6 folder inside it i made a subfolder as Task.
 3) Than i Opened the terminal in the Task folder where i want my project to be saved.
 4) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Task folder.
-5)  
+5) The my-next-app project is created inside Task folder and than i runned command cd my-next-app to move to project folder in terminal.
+6)    
 
 
 
