@@ -97,6 +97,16 @@ Step 5: The Pro Stylist (Tailwind CSS)
 Check out the demo video on YouTube:  
 [Watch here](https://youtu.be/KUCbd55fLPg)
 
+Phase 2: Building Modern Interfaces with Next.js & TypeScript
+Objective: To learn how to build scalable, type-safe, and interactive user interfaces using a modern
+framework.
+
+Step 6: Setting Up the Universe (Next.js)
+Task
+1) 
+
+
+
 
 
 
