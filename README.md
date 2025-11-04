@@ -107,6 +107,8 @@ Task
 1) First i need to check whether i had installed node in my pc or not by typing command in terminal as node -v or npm -v.
 2) Next i made Step6 folder inside it i made a subfolder as Task.
 3) Than i Opened the terminal in the Task folder where i want my project to be saved.
+4) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Task folder.
+5)  
 
 
 
