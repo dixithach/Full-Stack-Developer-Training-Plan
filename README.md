@@ -106,7 +106,7 @@ Step 6: Setting Up the Universe (Next.js)
 Task
 1) First i need to check whether i had installed node in my pc or not by typing command in terminal as node -v or npm -v.
 2) Next i made Step6 folder inside it i made a subfolder as Task.
-3) Than i Opened thr terminal in the Task folder where i want my project to be saved.
+3) Than i Opened the terminal in the Task folder where i want my project to be saved.
 
 
 
