@@ -102,6 +102,7 @@ Objective: To learn how to build scalable, type-safe, and interactive user inter
 framework.
 
 Step 6: Setting Up the Universe (Next.js)
+
 Task
 1) 
 
