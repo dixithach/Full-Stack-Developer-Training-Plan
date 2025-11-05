@@ -123,7 +123,11 @@ Task
 17) When i click Blog it goes inside blog folder and there is page.jsx and layout.jsx file contents will be displayed.
 18) And than Added [id]folder inside blog and inside it added page.tsx.
 19) When i click blog there it displays two links hello world and Learning app routers.
-20) Clicking it shows contents inside [id] folder there is a file by name Page.jsx its contents will be displayed.   
+20) Clicking it shows contents inside [id] folder there is a file by name Page.jsx its contents will be displayed.
+
+ Exercise
+ 1) I had created Exercise folder in Phase 2 branch inside Step6 folder.
+ 2) 
 
 
 
