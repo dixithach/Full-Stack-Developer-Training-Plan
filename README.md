@@ -110,7 +110,11 @@ Task
 4) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Task folder.
 5) The my-next-app project is created inside Task folder and than i runned command cd my-next-app to move to project folder in terminal.
 6) And than i runned npm run dev command in terminal.
-7) Than i copied address http://localhost:3000 and pasted in another tab it shows the app.   
+7) Than i copied address http://localhost:3000 and pasted in another tab it shows the app.
+8) Than i Edited layout.tsx file and added code and saved it is inside app folder.
+9) Than i Added code to page.tsx file which is inside app folder.
+10) Than i can see a static page on clicking http://localhost:3000 address .
+11)     
 
 
 
