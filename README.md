@@ -127,7 +127,8 @@ Task
 
  Exercise
  1) I had created Exercise folder in Phase 2 branch inside Step6 folder.
- 2) 
+ 2) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Exercise folder.
+ 3) 
 
 
 
