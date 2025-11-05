@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function BlogList() {
   // For demo we hardcode posts. In real apps fetch from an API.
   const posts = [
-    { id: "1", title: "Hello World" },
-    { id: "2", title: "Learning App Router" },
+    { id: "1", title: "Hello Worlds" },
+    { id: "2", title: "Learning App Routers" },
   ];
 
   return (
