@@ -114,7 +114,8 @@ Task
 8) Than i Edited layout.tsx file and added code and saved it is inside app folder.
 9) Than i Added code to page.tsx file which is inside app folder.
 10) Than i can see a static page on clicking http://localhost:3000 address .
-11)     
+11) As now you can see simple site with three routes with Home | About | Blog .
+12)     
 
 
 
