@@ -115,7 +115,15 @@ Task
 9) Than i Added code to page.tsx file which is inside app folder.
 10) Than i can see a static page on clicking http://localhost:3000 address .
 11) As now you can see simple site with three routes with Home | About | Blog .
-12)     
+12) And than Added about folder inside it page.jsx file is added.
+13) And than Added bio folder inside it page.jsx file and layout.jsx file is added.
+14) Finally i have simple site with 3 routes Home,About,Blog.
+15) When i click Home it shows home page content.
+16) When i click About it goes inside about folder and there page.jsx file contents will be displayed.
+17) When i click Blog it goes inside blog folder and there is page.jsx and layout.jsx file contents will be displayed.
+18) And than Added [id]folder inside blog and inside it added page.tsx.
+19) When i click blog there it displays two links hello world and Learning app routers.
+20) Clicking it shows contents inside [id] folder there is a file by name Page.jsx its contents will be displayed.   
 
 
 
