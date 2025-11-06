@@ -130,7 +130,8 @@ Task
  2) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Exercise folder.
  3) And than i created the shared layout with navigation in layout.tsx it is in app/layout.tsx.
  4) And than i created homepage in page.tsx it is in app/page.tsx.
- 5) 
+ 5) And than i created the /about page in which i had created about folder inside it i have page.tsx it is in app/about/page.tsx.
+ 6) 
 
 
 
