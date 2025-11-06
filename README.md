@@ -132,6 +132,11 @@ Task
  4) And than i created homepage in page.tsx it is in app/page.tsx.
  5) And than i created the /about page in which i had created about folder inside it i have page.tsx it is in app/about/page.tsx.
  6) And than i created the /contact page in which i had created contact folder inside it i have page.tsx it is in app/contact/page.tsx.
+ 7) And than i runned the app with npm run dev.
+ 8) app/layout.tsx wraps all pages; it contains the <nav> with <Link href="..."> so navigation appears on every page
+ 9) app/page.tsx is the homepage
+ 10) app/about/page.tsx and app/contact/page.tsx are nested folders. Their page.tsx files become /about and /contact
+ 11) Finally i am getting a site with three navigations Home,About,Contact. while clicking each navigation the content changes.
 
 
 
