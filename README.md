@@ -126,6 +126,8 @@ Task
 20) Clicking it shows contents inside [id] folder there is a file by name Page.jsx its contents will be displayed.
 
  Exercise
+ 
+ Creative Exercise (Multi-Page Site):
  1) I had created Exercise folder in Phase 2 branch inside Step6 folder.
  2) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Exercise folder.
  3) And than i created the shared layout with navigation in layout.tsx it is in app/layout.tsx.
