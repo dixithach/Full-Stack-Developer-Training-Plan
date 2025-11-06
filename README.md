@@ -131,7 +131,7 @@ Task
  3) And than i created the shared layout with navigation in layout.tsx it is in app/layout.tsx.
  4) And than i created homepage in page.tsx it is in app/page.tsx.
  5) And than i created the /about page in which i had created about folder inside it i have page.tsx it is in app/about/page.tsx.
- 6) 
+ 6) And than i created the /contact page in which i had created contact folder inside it i have page.tsx it is in app/contact/page.tsx.
 
 
 
