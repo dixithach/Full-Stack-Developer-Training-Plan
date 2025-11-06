@@ -129,6 +129,8 @@ Task
  1) I had created Exercise folder in Phase 2 branch inside Step6 folder.
  2) And than i runned npx create-next-app@latest my-next-app command in terminal to create my-next-app project inside Exercise folder.
  3) And than i created the shared layout with navigation in layout.tsx it is in app/layout.tsx.
+ 4) And than i created homepage in page.tsx it is in app/page.tsx.
+ 5) 
 
 
 
