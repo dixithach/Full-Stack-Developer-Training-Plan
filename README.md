@@ -98,12 +98,14 @@ Check out the demo video on YouTube:
 [Watch here](https://youtu.be/KUCbd55fLPg)
 
 Phase 2: Building Modern Interfaces with Next.js & TypeScript
+
 Objective: To learn how to build scalable, type-safe, and interactive user interfaces using a modern
 framework.
 
 Step 6: Setting Up the Universe (Next.js)
 
 Task
+
 1) First i need to check whether i had installed node in my pc or not by typing command in terminal as node -v or npm -v.
 2) Next i made Step6 folder inside it i made a subfolder as Task.
 3) Than i Opened the terminal in the Task folder where i want my project to be saved.
@@ -140,6 +142,15 @@ Task
  10) app/about/page.tsx and app/contact/page.tsx are nested folders. Their page.tsx files become /about and /contact
  11) Finally i am getting a site with three navigations Home,About,Contact. while clicking each navigation the content changes.
 
+
+Step 7: The Rules of Language (TypeScript Basics)
+
+Task
+1) First i created typscript.ts file inside Task folder which is inside Step7 Folder.
+2) I started coding inside typscript.ts where i declared Strings,Boolean,numbers,array.
+3) And than i runned  tsc typscript.ts in terminal.
+4) And than i runned  node typscripr.js in terminal which creates a typscript.js file.
+5) And than it will show result in terminals where console.log(); will print in terminal. 
 
 
 
