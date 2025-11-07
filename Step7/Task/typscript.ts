@@ -1,10 +1,10 @@
 
-1) string
+1) strings
 let firstName: string = "Dixith";
 console.log('firstName:', firstName);
 
 
-2) number (both integers and floats use number)
+2) numbers (both integers and floats use number)
 let age: number = 25;
 let temperature: number = 36.6;
 console.log('age:', age, 'temperature:', temperature);
