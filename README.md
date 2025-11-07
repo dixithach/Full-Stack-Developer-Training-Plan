@@ -150,7 +150,14 @@ Task
 2) I started coding inside typscript.ts where i declared Strings,Boolean,numbers,array.
 3) And than i runned  tsc typscript.ts in terminal.
 4) And than i runned  node typscripr.js in terminal which creates a typscript.js file.
-5) And than it will show result in terminals where console.log(); will print in terminal. 
+5) And than it will show result in terminals where console.log(); will print in terminal.
+
+Exercise
+
+Creative Exercise (Typed Variables)
+
+1) 
+   
 
 
 
