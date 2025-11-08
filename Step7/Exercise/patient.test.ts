@@ -1,4 +1,4 @@
-let patientName: string = "John Doe";
+let patientName: string = "John Does";
 let age: number = 45;
 let hasInsurance: boolean = true;
 let medications: string[] = ["Aspirin", "Metformin", "Lisinopril"];
