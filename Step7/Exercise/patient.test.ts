@@ -9,3 +9,6 @@ console.log("Name:", patientName);
 console.log("Age:", age);
 console.log("Has Insurance:", hasInsurance);
 console.log("Medications:", medications.join(", "));
+
+
+// node --loader ts-node/esm patient.test.ts to test the file//
