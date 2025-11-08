@@ -156,7 +156,13 @@ Exercise
 
 Creative Exercise (Typed Variables)
 
-1) 
+1) I created Execise folder inside Step7 folder .
+2) And than i created patient.test.ts file inside Exercise folder.
+3) And than i coded inside patient.test.ts file as i declared variables in typscript like patientName,age,hasInsurance,medications.
+4) And than i runned command to install typscript npm install --save-dev ts-node typescript.
+5) And than i runned node --loader ts-node/esm patient.test.ts command to display result.
+
+
    
 
 
