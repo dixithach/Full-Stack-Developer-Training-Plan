@@ -38,3 +38,26 @@ const patientB: InsuredPatient = {
   // extra property — allowed because of index signature in Patient
   notes: "Diabetic, monitor blood sugar",
 };
+
+// 3) Function that accepts the interface
+
+function printPatientSummary(p: Patient) {
+  console.log("---- Patient summary ----");
+  console.log(`ID: ${p.id}`);
+  console.log(`Name: ${p.name}`);
+  console.log(`Age: ${p.age}`);
+  console.log(`Has insurance: ${p.hasInsurance ? "Yes" : "No"}`);
+  console.log(`Medications: ${p.medications && p.medications.length ? p.medications.join(", ") : "None"}`);
+  console.log(`Created at: ${p.createdAt.toISOString()}`);
+  // show any extras
+  const extras = Object.keys(p).filter(k => !["id","name","age","medications","hasInsurance","createdAt"].includes(k));
+  if (extras.length) {
+    console.log("Extra fields:");
+    for (const k of extras) console.log(`  - ${k}: ${(p as any)[k]}`);
+  }
+  console.log("-------------------------\n");
+}
+
+
+
+
