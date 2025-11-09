@@ -1,4 +1,5 @@
 // 1) Interface declarations
+
 interface Patient {
   id: number;
   name: string;
@@ -17,6 +18,7 @@ interface InsuredPatient extends Patient {
 
 
 // 2) Create patients
+
 const patientA: Patient = {
   id: 1,
   name: "Anita Rao",
@@ -60,6 +62,7 @@ function printPatientSummary(p: Patient) {
 
 
 // 4) Function that returns a typed object
+
 function createPatient(id: number, name: string, age: number): Patient {
   return {
     id,
@@ -70,6 +73,14 @@ function createPatient(id: number, name: string, age: number): Patient {
   };
 }
 
+
+// 5) Demonstrate usage
+
+printPatientSummary(patientA);
+printPatientSummary(patientB);
+
+const patientC = createPatient(3, "Meera Shah", 28);
+printPatientSummary(patientC);
 
 
 
