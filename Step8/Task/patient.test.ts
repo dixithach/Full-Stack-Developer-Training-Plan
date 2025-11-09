@@ -59,5 +59,18 @@ function printPatientSummary(p: Patient) {
 }
 
 
+// 4) Function that returns a typed object
+function createPatient(id: number, name: string, age: number): Patient {
+  return {
+    id,
+    name,
+    age,
+    hasInsurance: false,
+    createdAt: new Date(),
+  };
+}
+
+
+
 
 
