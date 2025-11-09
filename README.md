@@ -173,6 +173,16 @@ Task
 6) Demonstrate usage is done in patient.test.ts file.
 7) Define a Patient interface is done in patient.test.ts file.
 
+Exercise
+
+Creative Exercise (Data Models)
+
+1) I created Execise folder inside Step8 folder .
+2) And than i created types.ts file inside Exercise folder.
+3) Define a Patient interface is done in types.ts file.
+4) Define a UniversityCourse interface is done in types.ts file.
+5) Created js file of types to execute it.
+
 
    
 
