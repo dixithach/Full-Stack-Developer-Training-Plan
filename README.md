@@ -162,6 +162,17 @@ Creative Exercise (Typed Variables)
 4) And than i runned command to install typscript npm install --save-dev ts-node typescript.
 5) And than i runned node --loader ts-node/esm patient.test.ts command to display result.
 
+Step 8: Structuring Our World (TypeScript Interfaces)
+
+Task
+1) First i created patient.test.ts file inside Task folder which is inside Step8 Folder.
+2) Interface declarations is done in patient.test.ts file.
+3) Create patients is done in patient.test.ts file.
+4) Function that accepts the Patient interface is done in patient.test.ts file.
+5) Created function createPatient that returns a typed object in patient.test.ts file.
+6) Demonstrate usage is done in patient.test.ts file.
+7) Define a Patient interface is done in patient.test.ts file.
+
 
    
 
