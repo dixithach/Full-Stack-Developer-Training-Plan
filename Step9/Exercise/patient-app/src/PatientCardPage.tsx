@@ -37,3 +37,46 @@ const PatientCard: React.FC<PatientCardProps> = ({ patient }) => {
     </div>
   );
 };
+
+
+
+// Step 3: Create a page that shows 3 patients
+const PatientCardPage: React.FC = () => {
+  const patients: Patient[] = [
+    {
+      id: "1",
+      name: "Anita Sharma",
+      age: 34,
+      condition: "Diabetes",
+      insured: true,
+      medications: ["Metformin", "Amlodipine"],
+    },
+    {
+      id: "2",
+      name: "Rohit Patel",
+      age: 46,
+      condition: "Hypertension",
+      insured: false,
+      medications: ["Losartan"],
+    },
+    {
+      id: "3",
+      name: "Meera Iyer",
+      age: 27,
+      condition: "Asthma",
+      insured: true,
+      medications: [],
+    },
+  ];
+
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1>Patient List</h1>
+      {patients.map((p) => (
+        <PatientCard key={p.id} patient={p} />
+      ))}
+    </div>
+  );
+};
+
+export default PatientCardPage;
