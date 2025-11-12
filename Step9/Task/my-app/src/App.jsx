@@ -75,7 +75,7 @@ onGreet={handleGreetFromChild}
 
 {/* You can pass inline values too */}
 <ChildCard
-name={"Ravi"}
+name={"Rajesh"}
 age={30}
 details={{ role: "Tester", skills: ["Automation"] }}
 onGreet={(n) => console.log("Greeted from", n)}
@@ -83,3 +83,29 @@ onGreet={(n) => console.log("Greeted from", n)}
 </div>
 );
 }
+
+// -----------------------------
+// 4) App (root) — default export (what you put in src/App.jsx)
+export default function App() {
+return (
+<div className="min-h-screen flex items-start justify-center p-8 bg-gray-50">
+<div className="w-full max-w-2xl bg-white p-6 rounded-2xl shadow-lg">
+<h1 className="text-3xl mb-4">React components & props — example</h1>
+<ParentContainer />
+
+
+{/* Short explanation block */}
+<div className="mt-6 text-sm text-gray-600">
+<p><strong>Key ideas:</strong></p>
+<ul className="list-disc ml-5">
+<li>Components are reusable pieces of UI (functions that return JSX).</li>
+<li>Props are how a parent passes data to a child — they are read-only inside the child.</li>
+<li>Functions can be passed as props so children can "call back" to the parent.</li>
+<li>Use children to pass JSX/content between opening and closing tags.</li>
+</ul>
+</div>
+</div>
+</div>
+);
+}
+
