@@ -183,6 +183,11 @@ Creative Exercise (Data Models)
 4) Define a UniversityCourse interface is done in types.ts file.
 5) Created js file of types to execute it.
 
+Step 9: Reusable Building Blocks (React Components & Props)
+
+Task
+1)  First i created react app as my-app inside Task folder which is inside Step9 Folder.
+
 
    
 
