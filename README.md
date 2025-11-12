@@ -187,6 +187,15 @@ Step 9: Reusable Building Blocks (React Components & Props)
 
 Task
 1)  First i created react app as my-app inside Task folder which is inside Step9 Folder.
+2)  I Created a new React project (Vite recommended).
+3)  I runned command npm create vite@latest my-app to install react app.
+4)  And than i runned npm run dev and react app started .
+5)  Than i started coding in App.jsx which is in src/App.jsx inside my-app.
+6)  Started with Imports (React is optional to import in modern JSX toolchains, but kept here for clarity) in App.jsx file.
+7)  Next i added Child component (receives props from its parent) We use destructuring to pick the props we want: {name, age, onGreet, details, children}.
+8)  And than i added Parent component (creates state and passes data to Child).
+9)  And at the end i added App (root) - default export (what you put in src/App.jsx) to execute the code.
+10)  And than i runned http://localhost:5173 to display the result in browser.
 
 
    
