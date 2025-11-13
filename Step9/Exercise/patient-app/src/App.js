@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
+import PatientCard from "./components/PatientCard";
 
 function App() {
+  const patients = [
+    { name: "John Doe", age: 30, condition: "Flu" },
+    { name: "Jane Smith", age: 45, condition: "Diabetes" },
+    { name: "Sam Wilson", age: 25, condition: "Asthma" },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px" }}>
+      <h2>Patient List</h2>
+      <div style={{ display: "flex", gap: "10px" }}>
+        {patients.map((p, index) => (
+          <PatientCard key={index} patient={p} />
+        ))}
+      </div>
     </div>
   );
 }
