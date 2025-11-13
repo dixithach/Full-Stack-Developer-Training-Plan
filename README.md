@@ -197,6 +197,19 @@ Task
 9)  And at the end i added App (root) - default export (what you put in src/App.jsx) to execute the code.
 10)  And than i runned http://localhost:5173 to display the result in browser.
 
+Exercise
+
+Creative Exercise (Component Library)
+
+1) First i created react app as patient-app inside Exercise folder which is inside Step9 Folder.
+2) I Created a new React project.
+3) I runned command npx create-react-app patient-app to install react app.
+4) And than i runned npm start and react app started.
+5) And than Created type.js file inside src/types.js.
+6) Created PatientCard.js file inside src/components/PatientCard.js.
+7) Edited App.js file in src/App.js.
+8) And than runned npm start command to start http://localhost:3000/.
+
 
    
 
