@@ -31,7 +31,18 @@ export default function App() {
   }
 
 
+// ---------------------------
+  // 3) TODO LIST
+  // ---------------------------
+  const [todoText, setTodoText] = useState("");
+  const [todos, setTodos] = useState([]);
 
+  function addTodo() {
+    if (!todoText.trim()) return; // ignore empty text
+
+    setTodos(prev => [...prev, todoText.trim()]);
+    setTodoText("");
+  }
 
 
 
@@ -76,7 +87,29 @@ return (
       </section>
 
 
+     {/* --------------------------- */}
+      {/*          TODO LIST          */}
+      {/* --------------------------- */}
+      <section>
+        <h2>Todo List</h2>
 
+        <input
+          type="text"
+          value={todoText}
+          onChange={(e) => setTodoText(e.target.value)}
+          placeholder="Add a task"
+        />
+
+        <button onClick={addTodo} style={{ marginLeft: 8 }}>
+          Add Task
+        </button>
+
+        <ul style={{ marginTop: 16 }}>
+          {todos.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </section>
 
 
 
