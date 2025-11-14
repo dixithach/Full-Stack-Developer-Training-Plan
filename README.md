@@ -222,6 +222,19 @@ Task
 7) I addded controlled input name in which if you type inside text box it will be shown below the text box.
 8) I added todo list in which if you type inside text box and also there is add task button if u click add task the input text will be shown below      the text box.
 
+Exercise
+
+Creative Exercise (Interactive Checklist)
+
+1) First i created react app as todo-app inside Exercise folder which is inside Step10 Folder.
+2) I Created a new React project.
+3) I runned command npx create-react-app todo-app to install react app.
+4) And than i runned npm start and react app started.
+5) And than i edited code in App.js file which is inside src\App.js.
+6) And added Simple TodoItem component without Tailwind inside App.js file.
+7) And than Added css in App.css which is inside src\App.css file.
+8) And than runned npm start command to start http://localhost:3000/.
+
 
    
 
