@@ -210,6 +210,18 @@ Creative Exercise (Component Library)
 7) Edited App.js file in src/App.js.
 8) And than runned npm start command to start http://localhost:3000/.
 
+Step 10: Giving Components Memory (State & Events)
+
+Task
+1) First i created react app as cmp-app inside Task folder which is inside Step10 Folder.
+2) I Created a new React project.
+3) I runned command npx create-react-app cmp-app to install react app.
+4) And than i runned npm start and react app started .
+5) Than i started coding in App.js which is in src/App.jsx inside cmp-app.
+6) I added counter state which increments and decrements values and also reset value onclick using userf state.
+7) I addded controlled input name in which if you type inside text box it will be shown below the text box.
+8) I added todo list in which if you type inside text box and also there is add task button if u click add task the input text will be shown below      the text box.
+
 
    
 
