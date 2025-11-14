@@ -20,6 +20,24 @@ export default function App() {
     setCount(0);
   }
 
+  // ---------------------------
+  // 2) CONTROLLED INPUT (NAME)
+  // ---------------------------
+
+  const [name, setName] = useState("");
+
+  function handleNameChange(e) {
+    setName(e.target.value);
+  }
+
+
+
+
+
+
+
+
+
 
 
 return (
@@ -38,7 +56,36 @@ return (
         <button onClick={increment} style={{ marginLeft: 8 }}>+</button>
         <button onClick={reset} style={{ marginLeft: 8 }}>Reset</button>
       </section>
-     </div>
+     
+
+
+           {/* --------------------------- */}
+      {/*     CONTROLLED INPUT        */}
+      {/* --------------------------- */}
+      <section style={{ marginBottom: 40 }}>
+        <h2>Enter Your Name</h2>
+
+        <input
+          type="text"
+          value={name}
+          onChange={handleNameChange}
+          placeholder="Type your name"
+        />
+
+        <p style={{ marginTop: 8 }}>Typed Name: <strong>{name}</strong></p>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
       );
 
 
