@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css"; // Plain CSS file
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+// Simple TodoItem component without Tailwind
+function TodoItem({ task }) {
+const [completed, setCompleted] = useState(false);
+
+
+const toggleCompleted = () => setCompleted((c) => !c);
+
+
+return (
+<div className="todo-item">
+<span className={completed ? "task completed" : "task"}>{task}</span>
+
+
+<button onClick={toggleCompleted} className="toggle-btn">
+{completed ? "Undo" : "Complete"}
+</button>
+</div>
+);
 }
 
-export default App;
+
+// Example App using TodoItem
+export default function App() {
+return (
+<div className="app-container">
+<div className="todo-box">
+<h1 className="title">My Todo List</h1>
+
+
+<TodoItem task="Buy groceries" />
+<TodoItem task="Finish React homework" />
+<TodoItem task="Call Mom" />
+</div>
+</div>
+);
+}
