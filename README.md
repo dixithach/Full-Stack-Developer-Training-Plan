@@ -235,6 +235,20 @@ Creative Exercise (Interactive Checklist)
 7) And than Added css in App.css which is inside src\App.css file.
 8) And than runned npm start command to start http://localhost:3000/.
 
+Phase 3: The Backend Engine Room - Node.js From Scratch
+
+Step 11: Powering On the Server (Node.js & Express Basics)
+
+Task 
+1) First i created my-express-app folder inside Task folder which is inside Step11 Folder.
+2) And than i runed npm init -y inside my-express-app folder.
+3) And than i runned npm install express inside my-express-app folder.
+4) Created index.js file inside my-express-app folder and coded it.
+5) Edited package.json file added code "start": "node index.js" to it.
+6) And than started server by running command npm start.
+7) And than went to browser and typed http://localhost:3000 and the result is Hello from Express!.
+
+
 
    
 
