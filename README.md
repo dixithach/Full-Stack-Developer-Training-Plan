@@ -248,6 +248,16 @@ Task
 6) And than started server by running command npm start.
 7) And than went to browser and typed http://localhost:3000 and the result is Hello from Express!.
 
+Exercise
+
+Creative Exercise:
+
+1) Added Exercise folder inside Step11 folder and than created for vitae-hub-api inside Exercise foolder and runned npm init -y to initialize the       project and to create package.json file.
+2) And than i runned to commands inside vitae-hub-api one is to install Express that is npm install express and another command is npm install --       save-dev nodemon to dev tool that restarts server on file changes.
+3) Edited package.json file added scripts like node server.js and nodemon server.js.
+4) Created server.js file inside vitae-hub-api and pasted code inside it.
+5) And than i runned npm run dev command and than i copied http://localhost:3001 and pasted in browser i got result in browser as Welcome to Vitae      Hub API!
+
 
 
    
