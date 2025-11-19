@@ -5,7 +5,7 @@ app.use(express.json());
 
 // GET route
 app.get("/welcome", (req, res) => {
-  res.send("Hello! This is a GET request.");
+  res.send("Hello! This is a GET requests.");
 });
 
 // POST route
