@@ -258,6 +258,16 @@ Creative Exercise:
 4) Created server.js file inside vitae-hub-api and pasted code inside it.
 5) And than i runned npm run dev command and than i copied http://localhost:3001 and pasted in browser i got result in browser as Welcome to Vitae      Hub API!
 
+Step12: Creating API Endpoints (Routing Basics)
+
+Task
+
+1) Added Step12 folder inside it Task folder and inside it i created api-demo folder and than inside it i initialised project in terminal with          command npm init -y.
+2) And than i installed express inside api-demo with command npm install express.
+3) Added server.js file inside api-demo and coded inside it for post and get route.
+4) And than i edited the server.js file and than i runned node server.js command and than igot http://localhost:3000/welcome address and than i         runned it i got Hello! This is a GET request. and for post to check i went to visual studio code and installed extension thunder client and than     i clicked new request selected post with url http://localhost:3000/send-data and than i clicked body and than i edited json file by adding name:     Dixith and age:22,
+5) And than i got output .
+
 
 
    
