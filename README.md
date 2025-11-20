@@ -220,7 +220,7 @@ Task
 5) Than i started coding in App.js which is in src/App.jsx inside cmp-app.
 6) I added counter state which increments and decrements values and also reset value onclick using userf state.
 7) I addded controlled input name in which if you type inside text box it will be shown below the text box.
-8) I added todo list in which if you type inside text box and also there is add task button if u click add task the input text will be shown below      the text box.
+8) I added todo list in which if you type inside text box and also there is add task button if u click add task the input text will be shown below the text box.
 
 Exercise
 
@@ -252,22 +252,29 @@ Exercise
 
 Creative Exercise:
 
-1) Added Exercise folder inside Step11 folder and than created for vitae-hub-api inside Exercise foolder and runned npm init -y to initialize the       project and to create package.json file.
-2) And than i runned to commands inside vitae-hub-api one is to install Express that is npm install express and another command is npm install --       save-dev nodemon to dev tool that restarts server on file changes.
+1) Added Exercise folder inside Step11 folder and than created for vitae-hub-api inside Exercise foolder and runned npm init -y to initialize the project and to create package.json file.
+2) And than i runned to commands inside vitae-hub-api one is to install Express that is npm install express and another command is npm install --save-dev nodemon to dev tool that restarts server on file changes.
 3) Edited package.json file added scripts like node server.js and nodemon server.js.
 4) Created server.js file inside vitae-hub-api and pasted code inside it.
-5) And than i runned npm run dev command and than i copied http://localhost:3001 and pasted in browser i got result in browser as Welcome to Vitae      Hub API!
+5) And than i runned npm run dev command and than i copied http://localhost:3001 and pasted in browser i got result in browser as Welcome to Vitae Hub API!
 
 Step12: Creating API Endpoints (Routing Basics)
 
 Task
-
-1) Added Step12 folder inside it Task folder and inside it i created api-demo folder and than inside it i initialised project in terminal with          command npm init -y.
+1) Added Step12 folder inside it Task folder and inside it i created api-demo folder and than inside it i initialised project in terminal with command npm init -y.
 2) And than i installed express inside api-demo with command npm install express.
 3) Added server.js file inside api-demo and coded inside it for post and get route.
-4) And than i edited the server.js file and than i runned node server.js command and than igot http://localhost:3000/welcome address and than i         runned it i got Hello! This is a GET request. and for post to check i went to visual studio code and installed extension thunder client and than     i clicked new request selected post with url http://localhost:3000/send-data and than i clicked body and than i edited json file by adding name:     Dixith and age:22,
+4) And than i edited the server.js file and than i runned node server.js command and than igot http://localhost:3000/welcome address and than i runned it i got Hello! This is a GET request. and for post to check i went to visual studio code and installed extension thunder client and than i clicked new request selected post with url http://localhost:3000/send-data and than i clicked body and than i edited json file by adding name: Dixith and age:22,
 5) And than i got output .
 
+Exercise: 
+
+Creative Exercise:
+
+1) Added Step12 folder inside it Exercise folder and inside it i created my-api folder and than inside it i initialised project in terminal with command npm init -y.
+2) And than i installed express inside my-api with command npm install express and also i runned command npm install --save-dev nodemon.
+3) Added server.js file inside my-api and coded inside it for GET /api/appointmentsand GET /api/tasks Routes.
+4) And than i edited the server.js file and than i runned npm run dev command and than i got http://localhost:3001  and than i runned it i got Welcome to the Vitae Hub API!. and for post to check     i went to visual studio code and installed extension thunder client and than i clicked new request selected post with url http://localhost:3001/api/appointments and also                            http://localhost:3001/api/tasks and than i clicked send it gave me json output and also i runned this addresses in browser it gave me json response.
 
 
    
