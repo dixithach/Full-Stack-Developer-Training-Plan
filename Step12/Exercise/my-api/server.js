@@ -9,9 +9,9 @@ const PORT = process.env.PORT || 3001;
 
 // Hardcoded data
 const appointments = [
-  { id: 1, title: "Dental Checkup", date: "2025-11-25", time: "10:00", with: "Dr. Rao" },
-  { id: 2, title: "Project Meeting", date: "2025-11-26", time: "15:00", with: "Team" },
-  { id: 3, title: "Eye Test", date: "2025-12-02", time: "09:00", with: "Dr. Iyer" }
+  { id: 1, title: "Dental Checkups", date: "2025-11-25", time: "10:00", with: "Dr. Rao" },
+  { id: 2, title: "Project Meetings", date: "2025-11-26", time: "15:00", with: "Team" },
+  { id: 3, title: "Eye Tests", date: "2025-12-02", time: "09:00", with: "Dr. Iyer" }
 ];
 
 const tasks = [
