@@ -317,6 +317,16 @@ Creative Exercise:
 3) Inside express-logger-demo folder created server.js file inside it started coding used requestLogger for every incoming request and routes and than runned command node server.js in terminal to     execute.
 
 
+Step 15: The Blueprint (MongoDB Schemas from Scratch)
+
+Task
+1) Created Step15 folder inside it created another folder by name Task and than inside it created another folder by name mongoose-demo and runned command npm init -y inside it and than again i        runned npm install express mongoose dotenv and than npm install --save-dev nodemon.
+2) Created db.js inside mongoose-demo to centralizes connection logic to connect to Mongoose.
+3) Created server.js inside mongoose-demo.
+4) Created models folder inside mongoose-demo and than inside models folder created User.js to Define a Mongoose schema & model.
+5) Created routes folder inside mongoose-demo and than created users.js file inside routes folder to implement basic endpoints and than started server by running npm run dev or npm start.
+
+
 
 
 
