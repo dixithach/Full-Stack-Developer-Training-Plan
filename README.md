@@ -300,6 +300,26 @@ Creative Exercise:
 8) Added taskRoutes.js inside routes.
 
 
+Step 14 : The Traffic Guard (Middleware from Scratch)
+
+Task
+1) Added Step14 folder inside there is Task folder.
+2) inside Task folder i have middleware folder inside it i installed express and no demon server.
+3) And than i added a server.js file inside middleware folder.
+4) And than i started coding inside server.js file i used middleware here and than i runned command node server.js in terminal.
+
+Exercise:
+
+Creative Exercise:
+
+1) Created Exercise folder inside Step14 and than created a express-logger-demo folder inside Exercise folder and than i runned command npm init -y and than i runned npm install express to install    express.
+2) Inside express-logger-demo folder created a folder by name middleware and inside it created requestLogger.js and started coding the file with requestlogger function.
+3) Inside express-logger-demo folder created server.js file inside it started coding used requestLogger for every incoming request and routes and than runned command node server.js in terminal to     execute.
+
+
+
+
+
 
 
 
