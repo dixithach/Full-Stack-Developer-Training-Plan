@@ -277,6 +277,33 @@ Creative Exercise:
 4) And than i edited the server.js file and than i runned npm run dev command and than i got http://localhost:3001  and than i runned it i got Welcome to the Vitae Hub API!. and for post to check     i went to visual studio code and installed extension thunder client and than i clicked new request selected post with url http://localhost:3001/api/appointments and also                            http://localhost:3001/api/tasks and than i clicked send it gave me json output and also i runned this addresses in browser it gave me json response.
 
 
+Step 13 : The Filing Cabinet (Controllers & Routers)
+
+Task 
+1) Added Step13 folder inside it Task folder and inside it i created mvc-example folder and than inside it i initialised project in terminal with command npm init -y and than i runned npm install express.
+2) Create data/storage.js - this simulates stored data so controllers can use it.
+3) Create controllers/appointmentsController.js and also Create controllers/tasksController.js controllers get data, validate, modify, return HTTP responses.
+4) Create routes/appointmentsRoutes.js and Create routes/tasksRoutes.js Each route file uses express.Router() to group related endpoints.
+5) Create server.js and Start the server using command npm run dev.
+
+Exercise:
+
+Creative Exercise:
+
+1) Created Exercise inside Step13 and than created a mvc folder and than i runned command npm init -y.
+2) And than i runned commands like npm install express and than npm install --save-dev nodemon inside mvc folder to install express.
+3) And than i created controllers folder and inside it i created appointmentController.js and started coding inside it.
+4) Inside /routes, create appointmentRoutes.js. Use express.Router() to define the / route and link it to the getAllAppointments controller function.
+5) Inside appointmentRoutes.js started coding.
+6) In your main server.js, import and use the appointment router under the /api/appointments path.
+7) Added taskController.js inside controllers.
+8) Added taskRoutes.js inside routes.
+
+
+
+
+
+
    
 
 
