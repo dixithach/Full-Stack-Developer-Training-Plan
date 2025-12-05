@@ -326,6 +326,11 @@ Task
 4) Created models folder inside mongoose-demo and than inside models folder created User.js to Define a Mongoose schema & model.
 5) Created routes folder inside mongoose-demo and than created users.js file inside routes folder to implement basic endpoints and than started server by running npm run dev or npm start.
 
+Exercise
+1) Added Exercise folder inside Step15 Folder and than inside Exercise folder created a mongoose-tasks folder and than runned commands npm init -y and npm install mongoose inside mongoose-tasks       folder.
+2) Added models folder inside mongoose-tasks folder and than created a Task.js file inside models folder and than coded the file to create Mongoose schema & model.
+3) Added server.js file inside mongoose-tasks folder and inside server.js file added minimal example showing how to connect and perform basic operations (create, read, update, delete) and than        runned command node server.js inside mongoose-tasks folder.
+
 
 
 
