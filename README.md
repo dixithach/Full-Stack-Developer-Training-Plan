@@ -332,6 +332,17 @@ Exercise
 3) Added server.js file inside mongoose-tasks folder and inside server.js file added minimal example showing how to connect and perform basic operations (create, read, update, delete) and than        runned command node server.js inside mongoose-tasks folder.
 
 
+Step 16: Storing Information (Mongoose & CRUD)
+
+Task
+1) Added Step16 folder and inside it created sub folder with name as Task and than inside Task folder created another folder by name task-crud and than runned commands like npm init -y and npm install express mongoose dotenv and npm install --save-dev nodemon inside task-crud.
+2) Next i created models folder inside it added Task.js file and than coded it to Create the schema and model.
+3) Next i created controllers folder inside it i created taskController.js file and than i started coding it with Full CRUD functions with proper status codes and error handling.
+4) Next i created routes folder inside it i created a file by name taskRoutes.js and started coding it with Hook controller functions to Express routes.
+5) Next i created middleware folder inside it i created a file by name errorHandler.js and started coding it with a simple middleware to send errors.
+6) Next i created server.js file inside task-crud folder and than started coding the server.js file with connect to MongoDB, mount routes and middleware and than runned npm run dev command to run     app.
+
+
 
 
 
