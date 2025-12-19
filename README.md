@@ -235,6 +235,7 @@ Creative Exercise (Interactive Checklist)
 7) And than Added css in App.css which is inside src\App.css file.
 8) And than runned npm start command to start http://localhost:3000/.
 
+
 Phase 3: The Backend Engine Room - Node.js From Scratch
 
 Step 11: Powering On the Server (Node.js & Express Basics)
@@ -341,13 +342,6 @@ Task
 4) Next i created routes folder inside it i created a file by name taskRoutes.js and started coding it with Hook controller functions to Express routes.
 5) Next i created middleware folder inside it i created a file by name errorHandler.js and started coding it with a simple middleware to send errors.
 6) Next i created server.js file inside task-crud folder and than started coding the server.js file with connect to MongoDB, mount routes and middleware and than runned npm run dev command to run     app.
-
-
-
-
-
-
-
 
 
    
