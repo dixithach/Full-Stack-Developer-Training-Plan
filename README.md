@@ -350,6 +350,114 @@ Task
 
 
 
+Phase 3: The Backend Engine Room - Node.js From Scratch
+
+Step 11: Powering On the Server (Node.js & Express Basics)
+
+Task 
+1) First i created my-express-app folder inside Task folder which is inside Step11 Folder.
+2) And than i runed npm init -y inside my-express-app folder.
+3) And than i runned npm install express inside my-express-app folder.
+4) Created index.js file inside my-express-app folder and coded it.
+5) Edited package.json file added code "start": "node index.js" to it.
+6) And than started server by running command npm start.
+7) And than went to browser and typed http://localhost:3000 and the result is Hello from Express!.
+
+Exercise
+
+Creative Exercise:
+
+1) Added Exercise folder inside Step11 folder and than created for vitae-hub-api inside Exercise foolder and runned npm init -y to initialize the project and to create package.json file.
+2) And than i runned to commands inside vitae-hub-api one is to install Express that is npm install express and another command is npm install --save-dev nodemon to dev tool that restarts server on file changes.
+3) Edited package.json file added scripts like node server.js and nodemon server.js.
+4) Created server.js file inside vitae-hub-api and pasted code inside it.
+5) And than i runned npm run dev command and than i copied http://localhost:3001 and pasted in browser i got result in browser as Welcome to Vitae Hub API!
+
+Step12: Creating API Endpoints (Routing Basics)
+
+Task
+1) Added Step12 folder inside it Task folder and inside it i created api-demo folder and than inside it i initialised project in terminal with command npm init -y.
+2) And than i installed express inside api-demo with command npm install express.
+3) Added server.js file inside api-demo and coded inside it for post and get route.
+4) And than i edited the server.js file and than i runned node server.js command and than igot http://localhost:3000/welcome address and than i runned it i got Hello! This is a GET request. and for post to check i went to visual studio code and installed extension thunder client and than i clicked new request selected post with url http://localhost:3000/send-data and than i clicked body and than i edited json file by adding name: Dixith and age:22,
+5) And than i got output .
+
+Exercise: 
+
+Creative Exercise:
+
+1) Added Step12 folder inside it Exercise folder and inside it i created my-api folder and than inside it i initialised project in terminal with command npm init -y.
+2) And than i installed express inside my-api with command npm install express and also i runned command npm install --save-dev nodemon.
+3) Added server.js file inside my-api and coded inside it for GET /api/appointmentsand GET /api/tasks Routes.
+4) And than i edited the server.js file and than i runned npm run dev command and than i got http://localhost:3001  and than i runned it i got Welcome to the Vitae Hub API!. and for post to check     i went to visual studio code and installed extension thunder client and than i clicked new request selected post with url http://localhost:3001/api/appointments and also                            http://localhost:3001/api/tasks and than i clicked send it gave me json output and also i runned this addresses in browser it gave me json response.
+
+
+Step 13 : The Filing Cabinet (Controllers & Routers)
+
+Task 
+1) Added Step13 folder inside it Task folder and inside it i created mvc-example folder and than inside it i initialised project in terminal with command npm init -y and than i runned npm install express.
+2) Create data/storage.js - this simulates stored data so controllers can use it.
+3) Create controllers/appointmentsController.js and also Create controllers/tasksController.js controllers get data, validate, modify, return HTTP responses.
+4) Create routes/appointmentsRoutes.js and Create routes/tasksRoutes.js Each route file uses express.Router() to group related endpoints.
+5) Create server.js and Start the server using command npm run dev.
+
+Exercise:
+
+Creative Exercise:
+
+1) Created Exercise inside Step13 and than created a mvc folder and than i runned command npm init -y.
+2) And than i runned commands like npm install express and than npm install --save-dev nodemon inside mvc folder to install express.
+3) And than i created controllers folder and inside it i created appointmentController.js and started coding inside it.
+4) Inside /routes, create appointmentRoutes.js. Use express.Router() to define the / route and link it to the getAllAppointments controller function.
+5) Inside appointmentRoutes.js started coding.
+6) In your main server.js, import and use the appointment router under the /api/appointments path.
+7) Added taskController.js inside controllers.
+8) Added taskRoutes.js inside routes.
+
+
+Step 14 : The Traffic Guard (Middleware from Scratch)
+
+Task
+1) Added Step14 folder inside there is Task folder.
+2) inside Task folder i have middleware folder inside it i installed express and no demon server.
+3) And than i added a server.js file inside middleware folder.
+4) And than i started coding inside server.js file i used middleware here and than i runned command node server.js in terminal.
+
+Exercise:
+
+Creative Exercise:
+
+1) Created Exercise folder inside Step14 and than created a express-logger-demo folder inside Exercise folder and than i runned command npm init -y and than i runned npm install express to install    express.
+2) Inside express-logger-demo folder created a folder by name middleware and inside it created requestLogger.js and started coding the file with requestlogger function.
+3) Inside express-logger-demo folder created server.js file inside it started coding used requestLogger for every incoming request and routes and than runned command node server.js in terminal to     execute.
+
+
+Step 15: The Blueprint (MongoDB Schemas from Scratch)
+
+Task
+1) Created Step15 folder inside it created another folder by name Task and than inside it created another folder by name mongoose-demo and runned command npm init -y inside it and than again i        runned npm install express mongoose dotenv and than npm install --save-dev nodemon.
+2) Created db.js inside mongoose-demo to centralizes connection logic to connect to Mongoose.
+3) Created server.js inside mongoose-demo.
+4) Created models folder inside mongoose-demo and than inside models folder created User.js to Define a Mongoose schema & model.
+5) Created routes folder inside mongoose-demo and than created users.js file inside routes folder to implement basic endpoints and than started server by running npm run dev or npm start.
+
+Exercise
+1) Added Exercise folder inside Step15 Folder and than inside Exercise folder created a mongoose-tasks folder and than runned commands npm init -y and npm install mongoose inside mongoose-tasks       folder.
+2) Added models folder inside mongoose-tasks folder and than created a Task.js file inside models folder and than coded the file to create Mongoose schema & model.
+3) Added server.js file inside mongoose-tasks folder and inside server.js file added minimal example showing how to connect and perform basic operations (create, read, update, delete) and than        runned command node server.js inside mongoose-tasks folder.
+
+
+Step 16: Storing Information (Mongoose & CRUD)
+
+Task
+1) Added Step16 folder and inside it created sub folder with name as Task and than inside Task folder created another folder by name task-crud and than runned commands like npm init -y and npm install express mongoose dotenv and npm install --save-dev nodemon inside task-crud.
+2) Next i created models folder inside it added Task.js file and than coded it to Create the schema and model.
+3) Next i created controllers folder inside it i created taskController.js file and than i started coding it with Full CRUD functions with proper status codes and error handling.
+4) Next i created routes folder inside it i created a file by name taskRoutes.js and started coding it with Hook controller functions to Express routes.
+5) Next i created middleware folder inside it i created a file by name errorHandler.js and started coding it with a simple middleware to send errors.
+6) Next i created server.js file inside task-crud folder and than started coding the server.js file with connect to MongoDB, mount routes and middleware and than runned npm run dev command to run     app.
+
+
    
 
 
