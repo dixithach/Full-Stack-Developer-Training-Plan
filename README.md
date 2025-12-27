@@ -459,6 +459,19 @@ Exercise
 5) Created routes folder inside Taskapp and than created taskRoutes.js inside routes folder and started coding it with routes of Create task,All tasks,Update task,Delete task.
 
 
+Step 17: The Digital Gatekeeper (JWT Authentication)
+
+Task
+1) Added Step17 folder and inside it created sub folder with name as Task and than inside Task folder created another folder by name jwt-auth-demo and than runned commands like npm init -y and npm    install express mongoose dotenv bcryptjs jsonwebtoken and npm install --save-dev nodemon inside jwt-auth-demo.
+2) Create a .env file inside jwt-auth-demo folder.
+3) Than create models folder inside jwt-auth-demo and than inside models folder create a user.js file to define Mongoose User model.
+4) Create controllers folder inside jwt-auth-demo and than inside controllers folder create a authController.js file.
+5) Create middleware folder inside jwt-auth-demo and than inside middleware folder create a authMiddleware.js file to Authentication middleware.
+6) Create routes folder inside jwt-auth-demo and than inside routes folder create a protectedRoutes.js file to Protected route.
+7) And than inside routes folder create another file by name authRoutes.js to Auth routes.
+8) And than create a server.js file inside jwt-auth-demo folder and than test in curl or postman.
+
+
    
 
 
