@@ -471,6 +471,10 @@ Task
 7) And than inside routes folder create another file by name authRoutes.js to Auth routes.
 8) And than create a server.js file inside jwt-auth-demo folder and than test in curl or postman.
 
+Exercise
+1) Added Exercise folder inside Step17 folder and than inside Exercise folder added jwtapp folder and than runned commands inside it like npm init -y,npm install express mongoose dotenv bcryptjs      jsonwebtoken,npm install --save-dev nodemon,npm install jsonwebtoken bcryptjs dotenv.
+2) jwtapp runned by typing command npm run dev.
+
 
    
 
