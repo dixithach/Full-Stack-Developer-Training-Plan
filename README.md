@@ -481,7 +481,8 @@ Phase 4: AI and Advanced Databases from First Principles
 Step 18: The Smart Library (Supabase & Vector DBs from Scratch)
 
 Task
-1) 
+1) Added Step18 folder and inside it created another folder by name supabase and than created Free Supabase Account and than created New Project in supabase as dixithach and than Create a sample      table by name documents and than enabled Enable pgvector extension and than added  Vector Column to documents database and than inserted a sample row and than i created Node.js Project inside      supabase folder by running npm init -y
+2) and than i runned npm install @supabase/supabase-js inside supabase folder to install Supabase Client and than created index.js file and coded it as it creates Supabase Client.
 
 
    
