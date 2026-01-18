@@ -496,7 +496,7 @@ Exercise 1 (Database & Table)
 8) Manually Insert One Recipe Using the UI as Insert Data via Table Editor and than inside family_recipes, click Insert row and than fill the fields like title,instructions and than Click save.
 9) Confirm the Inserted Recipe and than Verify Data and than You should now see one row in the table.
 
-Exercise 2
+Exercise 2  (Enabling Vectors)
 1) Open Your Supabase Project by log in to your account.
 2) Open the SQL Editor and than Click New query and than create extension if not exists vector; copy this sql command and paste it in sql editor and than Click run you should see Success.
 3) Add the embedding Column to family_recipes by running sql query as alter table family_recipes.
