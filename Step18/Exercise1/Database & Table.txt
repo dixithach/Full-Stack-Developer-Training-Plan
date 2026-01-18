@@ -10,6 +10,10 @@
   a) In the dashboard, click New Project
   b) Give project name as family-recipes-project
   c) Create new project
+
+3) Open the SQL Editor (Web-Based)
+  a) From the left sidebar, click SQL Editor
+  b) Click New query
  
 
 
