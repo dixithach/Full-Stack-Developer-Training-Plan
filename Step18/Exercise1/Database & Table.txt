@@ -6,7 +6,10 @@
    e) log in to GitHub and authorize Supabase
    f) Once completed, you will land on the Supabase Dashboard.
 
-
+2) Create a New Supabase Project
+  a) In the dashboard, click New Project
+  b) Give project name as family-recipes-project
+  c) Create new project
  
 
 
