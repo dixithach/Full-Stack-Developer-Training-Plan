@@ -13,6 +13,19 @@
  a) alter table family_recipes
     add column embedding vector(384);
 
+4) vector → data type provided by pgvector
+   384 → number of dimensions in the embedding
+   384 is commonly used by small AI embedding models
+   alter table family_recipes → modifies the existing table
+   add column embedding → adds a new column named embedding
+   vector(384) → stores AI embeddings with 384 dimensions
+
+
+5) Run the sql to view
+ a) select column_name, data_type
+    from information_schema.columns
+    where table_name = 'family_recipes';
+
 
 
 
