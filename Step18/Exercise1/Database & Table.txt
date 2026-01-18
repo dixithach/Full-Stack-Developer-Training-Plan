@@ -14,6 +14,8 @@
 3) Open the SQL Editor (Web-Based)
   a) From the left sidebar, click SQL Editor
   b) Click New query
+
+4) Create the family_recipes Table
  
 
 
