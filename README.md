@@ -502,6 +502,9 @@ Exercise 2  (Enabling Vectors)
 3) Add the embedding Column to family_recipes by running sql query as alter table family_recipes.
 4) Run the sql to view.
 
+Exercise 3 (Connecting from Code)
+1)
+
 
 
    
