@@ -3,6 +3,12 @@
  b) Log in to your account
  c) Click on your project name from the dashboard
 
+2) Open the SQL Editor
+ a) In the left sidebar, click SQL Editor
+ b) Click New query
+ c) create extension if not exists vector; copy this sql command and paste it in sql editor
+ d) Click run you should see Success. No rows returned message
+
 
 
 
