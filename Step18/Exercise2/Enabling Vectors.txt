@@ -9,6 +9,10 @@
  c) create extension if not exists vector; copy this sql command and paste it in sql editor
  d) Click run you should see Success. No rows returned message
 
+3) Add the embedding Column to family_recipes
+ a) alter table family_recipes
+    add column embedding vector(384);
+
 
 
 
