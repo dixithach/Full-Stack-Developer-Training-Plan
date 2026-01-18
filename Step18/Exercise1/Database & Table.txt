@@ -24,6 +24,10 @@
   instructions TEXT NOT NULL
      );
  b) Copy and paste the following SQL into the editor
+
+6) Run the Query
+ a) Click Run (or press Ctrl + Enter)
+ b) You should see a success message like: “Success. No rows returned.”
  
 
 
