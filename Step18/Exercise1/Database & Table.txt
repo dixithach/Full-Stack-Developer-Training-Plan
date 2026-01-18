@@ -27,7 +27,15 @@
 
 6) Run the Query
  a) Click Run (or press Ctrl + Enter)
- b) You should see a success message like: “Success. No rows returned.”
+ b) You should see a success message like: “Success. No rows returned.” 
+
+
+7) View the Table
+ a) Verify the Table in the UI
+ b) Click Table Editor from the left sidebar 
+ c) Find the family_recipes
+ d) Click on it
+ e) You will see columns like id,title,instructions
  
 
 
