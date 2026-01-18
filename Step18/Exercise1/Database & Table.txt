@@ -16,6 +16,14 @@
   b) Click New query
 
 4) Create the family_recipes Table
+
+5) Write SQL to Create the Table
+  a) CREATE TABLE family_recipes (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  instructions TEXT NOT NULL
+     );
+ b) Copy and paste the following SQL into the editor
  
 
 
