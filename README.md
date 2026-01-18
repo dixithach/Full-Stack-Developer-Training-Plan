@@ -484,6 +484,19 @@ Task
 1) Added Step18 folder and inside it created another folder by name supabase and than created Free Supabase Account and than created New Project in supabase as dixithach and than Create a sample      table by name documents and than enabled Enable pgvector extension and than added  Vector Column to documents database and than inserted a sample row and than i created Node.js Project inside      supabase folder by running npm init -y
 2) and than i runned npm install @supabase/supabase-js inside supabase folder to install Supabase Client and than created index.js file and coded it as it creates Supabase Client.
 
+Exercise 1
+1) first Create a Free Supabase Account and than Sign in with GitHub Once completed, you will land on the Supabase Dashboard.
+2) Create a New Supabase Project and than In the dashboard, click New Project and than Give project name as family-recipes-project and than Create new project.
+3) Open the SQL Editor (Web-Based) and than From the left sidebar, click SQL Editor and than Click New query.
+4) Create the family_recipes Table.
+5) Write SQL to Create the Table as CREATE TABLE family_recipes.
+6) Run the Query and than You should see a success message.
+7) View the Table and Verify the Table in the UI and than Click Table Editor from the left sidebar and than Find the family_recipes Click on it and than You will see columns
+   like id,title,instructions.
+8) Manually Insert One Recipe Using the UI as Insert Data via Table Editor and than inside family_recipes, click Insert row and than fill the fields like title,instructions and than Click save.
+9) Confirm the Inserted Recipe and than Verify Data and than You should now see one row in the table.
+
+
 
    
 
