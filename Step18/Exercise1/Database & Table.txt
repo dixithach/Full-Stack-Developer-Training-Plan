@@ -1,0 +1,15 @@
+1) Create a Free Supabase Account
+   a) Go to https://supabase.com
+   b) Click Sign Up
+   c) Click Start your project
+   d) Choose Sign in with GitHub
+   e) log in to GitHub and authorize Supabase
+   f) Once completed, you will land on the Supabase Dashboard.
+
+
+ 
+
+
+
+
+  
