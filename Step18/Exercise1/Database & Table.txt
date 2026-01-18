@@ -35,7 +35,13 @@
  b) Click Table Editor from the left sidebar 
  c) Find the family_recipes
  d) Click on it
- e) You will see columns like id,title,instructions
+ e) You will see columns like id,title,instructions 
+
+8) Manually Insert One Recipe Using the UI
+ a) Insert Data via Table Editor
+ b) While inside family_recipes, click Insert row
+ c) fill the fields like title,instructions
+ d) Click save
  
 
 
