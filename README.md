@@ -476,6 +476,14 @@ Exercise
 2) jwtapp runned by typing command npm run dev.
 
 
+Phase 4: AI and Advanced Databases from First Principles
+
+Step 18: The Smart Library (Supabase & Vector DBs from Scratch)
+
+Task
+1) 
+
+
    
 
 
