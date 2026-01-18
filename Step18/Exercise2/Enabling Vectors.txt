@@ -1,0 +1,9 @@
+1) Open Your Supabase Project
+ a) Go to https://supabase.com
+ b) Log in to your account
+ c) Click on your project name from the dashboard
+
+
+
+
+ 
