@@ -42,6 +42,12 @@
  b) While inside family_recipes, click Insert row
  c) fill the fields like title,instructions
  d) Click save
+
+9) Confirm the Inserted Recipe
+ a) Verify Data
+ b) You should now see one row in the table
+ c) | id | title                     | instructions                                                         |
+    | 1  | Grandma’s Vegetable Curry | Chop vegetables, sauté with spices, add water, and cook until tender |
  
 
 
