@@ -508,6 +508,12 @@ Exercise 3 (Connecting from Code)
 3) And than i created index.js file inside supabase-recipes-demo folder and started coding and than i copied url and api key from supabase and than i edited package.json file by adding type=module    and than i runned node index.js command to get output and than i got result as it tells Connected Node.js to Supabase.
 
 
+Step 19: The Local AI Brain (Ollama from Scratch)
+
+Task
+1)
+
+
 
 
    
