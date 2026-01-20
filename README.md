@@ -511,7 +511,37 @@ Exercise 3 (Connecting from Code)
 Step 19: The Local AI Brain (Ollama from Scratch)
 
 Task
-1)
+1)Open your browser
+2)Go to: https://ollama.com
+3)Click Download for Windows
+4)Download the .exe file
+5)Double-click the downloaded .exe
+6)Click Next
+7)Accept the license
+8)Click Install
+9)Finish installation
+10)Verify Installation by running ollama --version command in terminal
+11)It will show ollama version is 0.14.2 it is now installed.
+
+Creative Exercise 1 (Installation & First Chat)
+
+1)Open your browser
+2)Go to: https://ollama.com
+3)Click Download for Windows
+4)Download the .exe file
+5)Double-click the downloaded .exe
+6)Click Next
+7)Accept the license
+8)Click Install
+9)Finish installation
+10)Verify Installation by running ollama --version command in terminal
+11)It will show ollama version is 0.14.2 it is now installed.
+12)And than i runned ollama run llama3 command to install llama3.
+13)Once LLM is installed you can chat in terminal.
+14) it will show like this >>> 
+15) And than you can ask questions like this >>> What is an LLM?
+16) It will display answers in terminal itself.
+17) To exit chat type command >>> /exit.
 
 
 
