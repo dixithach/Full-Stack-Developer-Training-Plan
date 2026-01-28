@@ -1,0 +1,18 @@
+1)ollama pull llama2
+2)ollama pull nomic-embed-text
+3)ollama serve
+4)ollama list
+5)node server.js to run the project
+6)RAG API running at http://localhost:3000 is the result
+7)Than run in postman for post url http://localhost:3000/api/research
+8)And in body ask or type
+  {
+  "question": "How do I prepare pasta?",
+  }
+9) it will give result in json like
+
+ {
+  "question": "How do I prepare pasta?",
+  "answer": "Boil water, add pasta, cook until al dente...",
+  "sources": ["Classic Pasta Recipe"]
+  }   
