@@ -545,8 +545,15 @@ Creative Exercise 1 (Installation & First Chat)
 
 Creative Exercise 2 (Basic API Call)
 
-1) Add Step19 folder and than inside it created Exercise2 folder and than inside it created ollama-backend folder and than runned command npm init -y to install Node.js Project and than runned npm    install express node-fetch to install express and node-fetch.
+1) Added Step19 folder and than inside it created Exercise2 folder and than inside it created ollama-backend folder and than runned command npm init -y to install Node.js Project and than runned      npm install express node-fetch to install express and node-fetch.
 2) And than created server.js file inside ollama-backend folder and started coding it to recieve GET request and calls ollamas API and logs the AI response and runned the node server.js command to    get Server running on http://localhost:3000 and than i tested the route by copying http://localhost:3000/api/ask-ollama and pasted it in the browser and than i will get AI response in browser      as well as in terminal.
+
+Creative Exercise 3 (AI Research Assistant - RAG)
+
+1) Inside Step19 folder created another folder by name Exercise3 and than inside it create rag-api project  folder and than installed it by running npm init -y and npm install express                 @supabase/supabase-js node-fetch.
+2) Inside rag-api folder i created server.js file inside it i coded it with configuring it and get  embedding from Ollama and  Vector search in Supabase and Ask Ollama using matched recipes as        context and api call in this file.
+3) Inside rag-api folder i created embedRecipes.js file and coded it as it makes Helper to get embeddings from Ollama and Embed all recipes with null embedding.
+4) and than runned the server.js file by running command node server.js as it gives RAG API running at http://localhost:3000 and than test in postman by checking this url        http://localhost:3000/api/research and than asking question it will answer.
 
 
 
