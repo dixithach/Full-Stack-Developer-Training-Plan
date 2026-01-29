@@ -280,7 +280,7 @@ Creative Exercise:
 Step 13 : The Filing Cabinet (Controllers & Routers)
 
 Task 
-1) Added Step13 folder inside it Task folder and inside it i created mvc-example folder and than inside it i initialised project in terminal with command npm init -y and than i runned npm install express.
+1) Added Step13 folder inside it Task folder and inside it i created mvc-example folder and than inside it i initialised project in terminal with command npm init -y and than i runned npm install     express.
 2) Create data/storage.js - this simulates stored data so controllers can use it.
 3) Create controllers/appointmentsController.js and also Create controllers/tasksController.js controllers get data, validate, modify, return HTTP responses.
 4) Create routes/appointmentsRoutes.js and Create routes/tasksRoutes.js Each route file uses express.Router() to group related endpoints.
@@ -553,7 +553,7 @@ Creative Exercise 3 (AI Research Assistant - RAG)
 1) Inside Step19 folder created another folder by name Exercise3 and than inside it create rag-api project  folder and than installed it by running npm init -y and npm install express                 @supabase/supabase-js node-fetch.
 2) Inside rag-api folder i created server.js file inside it i coded it with configuring it and get  embedding from Ollama and  Vector search in Supabase and Ask Ollama using matched recipes as        context and api call in this file.
 3) Inside rag-api folder i created embedRecipes.js file and coded it as it makes Helper to get embeddings from Ollama and Embed all recipes with null embedding.
-4) and than runned the server.js file by running command node server.js as it gives RAG API running at http://localhost:3000 and than test in postman by checking this url        http://localhost:3000/api/research and than asking question it will answer.
+4) And than runned the server.js file by running command node server.js as it gives RAG API running at http://localhost:3000 and than test in postman by checking this url                              http://localhost:3000/api/research and than asking question it will answer.
 
 
 
