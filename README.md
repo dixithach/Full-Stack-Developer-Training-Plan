@@ -543,6 +543,11 @@ Creative Exercise 1 (Installation & First Chat)
 16) It will display answers in terminal itself.
 17) To exit chat type command >>> /exit.
 
+Creative Exercise 2 (Basic API Call)
+
+1) Add Step19 folder and than inside it created Exercise2 folder and than inside it created ollama-backend folder and than runned command npm init -y to install Node.js Project and than runned npm    install express node-fetch to install express and node-fetch.
+2) And than created server.js file inside ollama-backend folder and started coding it to recieve GET request and calls ollamas API and logs the AI response and runned the node server.js command to    get Server running on http://localhost:3000 and than i tested the route by copying http://localhost:3000/api/ask-ollama and pasted it in the browser and than i will get AI response in browser      as well as in terminal.
+
 
 
 
