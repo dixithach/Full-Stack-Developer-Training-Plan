@@ -556,6 +556,39 @@ Creative Exercise 3 (AI Research Assistant - RAG)
 4) And than runned the server.js file by running command node server.js as it gives RAG API running at http://localhost:3000 and than test in postman by checking this url                              http://localhost:3000/api/research and than asking question it will answer.
 
 
+Step 20: The Automated Helper (n8n)
+
+Task: Use n8n to create a data pipeline
+
+1) n8n is a workflow automation tool.
+2) Install n8n by using command in terminal npm install -g n8n.
+3) to start n8n type n8n in terminal.
+4) U will see Editor is now accessible via:
+   http://localhost:5678
+5) Open n8n in Browser by typing address http://localhost:5678.
+6) Understand the n8n Interface.
+7) Main areas
+
+  1. Canvas (center) – where you build workflows
+
+  2. Nodes panel (right) – list of all nodes
+
+  3.Execute button – run the workflow
+
+  4.Save button – save the workflow
+8)  Create Your First Workflow by clicking New Workflow.
+9)  Add a Trigger Node (Start of Pipeline)
+10) Add Manual Trigger
+
+  1. Click “+”
+
+  2. Search for Manual Trigger
+
+  3. Select it
+
+11) Fetch data using public API as https://jsonplaceholder.typicode.com/posts.
+
+
 
 
 
