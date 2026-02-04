@@ -588,11 +588,21 @@ Task: Use n8n to create a data pipeline
 
 11) Fetch data using public API as https://jsonplaceholder.typicode.com/posts.
 
+Creative Exercise (University Course Fetcher):
+
+1) 
 
 
 
 
+Phase 5: Full-Stack Fusion & Deployment from Scratch
 
+Step 21: Connecting the Brains (Full-Stack Integration)
+1) Created Step21 folder inside it Task folder is created and than node-backend folder is created inside it runned npm init -y to create a node project.
+2) And than i runned npm install express cors inside node-backend folder as it creates api and allow frontend (3000) to talk to backend (5000).
+3) And than i created server.js file and coded it as it allows frontend to call backend and to test api and than i runned node server.js file in terminal to get Backend running at                     http://localhost:5000 and than i tested it in browser with http://localhost:5000/api/hello to get Hello from Node.js backend.
+4) I runned the command npx create-next-app@latest next-frontend to create nextjs app and to create a folder by name next-frontend.
+5) And than i edited app/page.js file as it will now Make Frontend Call Backend API and than i runned npm run dev to get msg Hello from Node.js backend when i runned http://localhost:3000 in          browser and also nodejs should be running to communicate.
    
 
 
