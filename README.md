@@ -598,6 +598,8 @@ Creative Exercise (University Course Fetcher):
 Phase 5: Full-Stack Fusion & Deployment from Scratch
 
 Step 21: Connecting the Brains (Full-Stack Integration)
+
+Task
 1) Created Step21 folder inside it Task folder is created and than node-backend folder is created inside it runned npm init -y to create a node project.
 2) And than i runned npm install express cors inside node-backend folder as it creates api and allow frontend (3000) to talk to backend (5000).
 3) And than i created server.js file and coded it as it allows frontend to call backend and to test api and than i runned node server.js file in terminal to get Backend running at                     http://localhost:5000 and than i tested it in browser with http://localhost:5000/api/hello to get Hello from Node.js backend.
