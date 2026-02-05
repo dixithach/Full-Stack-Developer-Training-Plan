@@ -605,6 +605,14 @@ Task
 3) And than i created server.js file and coded it as it allows frontend to call backend and to test api and than i runned node server.js file in terminal to get Backend running at                     http://localhost:5000 and than i tested it in browser with http://localhost:5000/api/hello to get Hello from Node.js backend.
 4) I runned the command npx create-next-app@latest next-frontend to create nextjs app and to create a folder by name next-frontend.
 5) And than i edited app/page.js file as it will now Make Frontend Call Backend API and than i runned npm run dev to get msg Hello from Node.js backend when i runned http://localhost:3000 in          browser and also nodejs should be running to communicate.
+
+
+Exercise
+1) Added Exercise folder inside Step21 folder and than created backend folder and inside it run commands like npm init -y and npm install express cors to create a backend api.
+2) And than i created server.js file to create in memory and task manager api and to get task and AI Research API and Start backend and than i runned node server.js in terminal to run backend and     than i gor result in browser as [].
+3) And than i created frontend folder inside exercise and than i created a index.html file as it acts as frontend task manager.
+4) Added Task.js file inside frontend folder as it connects frontend and backend.
+5) Added ai.html and ai.js file inside frontend folder as it Ask question and Get response from backend. 
    
 
 
