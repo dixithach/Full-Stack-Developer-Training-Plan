@@ -1,0 +1,24 @@
+I am a beginner frontend developer.
+
+Tech stack:
+- HTML
+- CSS
+- JavaScript (no frameworks)
+
+Task:
+Create a simple Task Manager UI with:
+- An input field to enter a task
+- An "Add Task" button
+- A list of tasks displayed below
+- A delete button for each task
+
+Requirements:
+- Use only plain HTML, CSS, and JavaScript
+- Keep the code simple and readable
+- Add comments explaining each part
+- Do not use external libraries
+
+Output format:
+- Provide index.html
+- Provide style.css
+- Provide script.js
