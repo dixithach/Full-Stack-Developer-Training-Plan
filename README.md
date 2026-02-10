@@ -612,7 +612,16 @@ Exercise
 2) And than i created server.js file to create in memory and task manager api and to get task and AI Research API and Start backend and than i runned node server.js in terminal to run backend and     than i gor result in browser as [].
 3) And than i created frontend folder inside exercise and than i created a index.html file as it acts as frontend task manager.
 4) Added Task.js file inside frontend folder as it connects frontend and backend.
-5) Added ai.html and ai.js file inside frontend folder as it Ask question and Get response from backend. 
+5) Added ai.html and ai.js file inside frontend folder as it Ask question and Get response from backend.
+
+
+Step 22: Rapid Prototyping (Firebase Studio)
+
+Task
+1) Added Step22 folder and than inside it created Task folder and than inside it created task-manager folder and inside it created prompt.txt file which tells detailed prompt.
+2) Added index.html file inside task-manager folder which is the html file to view in the browser as it shows output.
+3) Added style.css file inside task-manager folder which styles the index.html file with design and alignments.
+4) Added script.js file inside task-manager folder which is used to add task and delete a task it makes interactive and give result when a button is clicked.
    
 
 
