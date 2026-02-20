@@ -1,0 +1,12 @@
+Create a reusable React component for a Next.js 14 app using TypeScript and Tailwind CSS.
+
+Component name: TaskStatsCard
+
+Requirements:
+- Accept props: totalTasks (number), completedTasks (number)
+- Show total tasks
+- Show completed tasks
+- Display a progress bar based on completion percentage
+- Modern UI with rounded corners and shadow
+- Responsive design
+- Clean production-ready code
