@@ -1,0 +1,17 @@
+1) View Running Containers
+   docker ps
+
+2) Stop Container
+   docker stop <container_id>
+
+3) Remove Container
+   docker rm <container_id>
+
+4) Remove Image
+   docker rmi my-node-app
+
+5) Run Container in Background
+   docker run -d -p 3000:3000 my-node-app
+
+6) View Container Logs
+   docker logs <container_id>
