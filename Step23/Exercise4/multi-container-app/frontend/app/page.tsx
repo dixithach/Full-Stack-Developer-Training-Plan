@@ -5,7 +5,7 @@ export default function Home() {
   const [data, setData] = useState("");
 
   useEffect(() => {
-    fetch("http://backend:5000")
+    fetch("http://localhost:5000")
       .then((res) => res.text())
       .then((data) => setData(data));
   }, []);
